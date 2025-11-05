@@ -37,6 +37,7 @@ dependencyResolutionManagement {
             version("rabbitmq", "5.27.0")
             version("h2", "2.4.240")
             version("jaxb", "4.0.6")
+            version("cyclonedx", "3.0.1")
 
             library("mycelium.bom", "net.onelitefeather", "mycelium-bom").versionRef("mycelium.bom")
             library("aonyx.bom", "net.onelitefeather", "aonyx-bom").versionRef("aonyx")
@@ -97,6 +98,8 @@ dependencyResolutionManagement {
                     "jaxb.impl"
                 )
             )
+
+            plugin("cyclonedx", "org.cyclonedx.bom").versionRef("cyclonedx")
         }
     }
 }

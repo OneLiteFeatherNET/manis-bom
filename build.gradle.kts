@@ -1,6 +1,7 @@
 plugins {
     `maven-publish`
     `java-platform`
+    alias(libs.plugins.cyclonedx)
 }
 
 group = "net.onelitefeather"
