@@ -13,3 +13,14 @@ Manual version changes are usually not required only when.
 > [!NOTE]
 > Adding or removing dependencies in this BOM must be done manually.  
 > Renovate will only update existing versions.
+
+
+## Included BOMs
+
+This BOM definition relies on other BOMs to simplify version and dependency management.
+The following BOMs are included:
+
+- [Mycelium-BOM](https://github.com/OneLiteFeatherNET/Mycelium-bom)
+- [Aonyx-BOM](https://github.com/OneLiteFeatherNET/Aonyx-bom)
+- [Cloudnet-BOM](https://github.com/CloudNetService/CloudNet/tree/nightly/bom)
+- [Hibernate-ORM-BOM](https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-platform)
