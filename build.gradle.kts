@@ -1,20 +1,77 @@
 plugins {
-    id("java")
+    `maven-publish`
+    `java-platform`
 }
 
 group = "net.onelitefeather"
-version = "1.0-SNAPSHOT"
+version = "0.1.0"
 
-repositories {
-    mavenCentral()
+javaPlatform {
+    allowDependencies()
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    api(platform(libs.mycelium.bom))
+    api(platform(libs.aonyx.bom))
+    api(platform(libs.hibernate.bom))
+    api(platform(libs.cloudnet.bom))
+    constraints {
+        api(libs.postgresql)
+        api(libs.h2)
+        api(libs.google.service)
+        api(libs.rabbitmq)
+        api(libs.common.io)
+        api(libs.zt.zip)
+        api(libs.caffeine)
+        api(libs.world.seed.engine)
+        api(libs.bundles.geometry.full)
+        api(libs.bundles.geometry.game)
+        api(libs.bundles.jaxb)
+    }
 }
 
-tasks.test {
-    useJUnitPlatform()
+publishing {
+    repositories {
+        maven {
+            authentication {
+                credentials(PasswordCredentials::class) {
+                    username = System.getenv("ONELITEFEATHER_MAVEN_USERNAME")
+                    password = System.getenv("ONELITEFEATHER_MAVEN_PASSWORD")
+                }
+            }
+            name = "OneLiteFeatherRepository"
+            url = if (project.version.toString().contains("SNAPSHOT")) {
+                uri("https://repo.onelitefeather.dev/onelitefeather-snapshots")
+            } else {
+                uri("https://repo.onelitefeather.dev/onelitefeather-releases")
+            }
+        }
+    }
+    publications {
+        create<MavenPublication>("maven") {
+            from(components["javaPlatform"])
+            pom {
+                name.set("${project.name} ${project.version}")
+                description.set("Bill of materials for the Aonyx project")
+                developers {
+                    developer {
+                        name.set("OneliteFeather")
+                        contributors {
+                            contributor {
+                                name.set("theEvilReaper")
+                            }
+                            contributor {
+                                name.set("TheMeinerLP")
+                            }
+                        }
+                    }
+                }
+
+                issueManagement {
+                    system.set("Github")
+                    url.set("https://github.com/OneLiteFeatherNET/Aonyx-bom/issues")
+                }
+            }
+        }
+    }
 }
