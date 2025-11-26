@@ -37,7 +37,7 @@ dependencyResolutionManagement {
             version("rabbitmq", "5.27.1")
             version("h2", "2.4.240")
             version("jaxb", "4.0.6")
-            version("cyclonedx", "3.0.2")
+            version("cyclonedx", "3.1.0")
 
             library("mycelium.bom", "net.onelitefeather", "mycelium-bom").versionRef("mycelium.bom")
             library("aonyx.bom", "net.onelitefeather", "aonyx-bom").versionRef("aonyx")
