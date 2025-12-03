@@ -34,7 +34,7 @@ dependencyResolutionManagement {
             version("commons.geometry", "1.0")
             version("postgresql", "42.7.8")
             version("google.autovalue", "1.1.1")
-            version("rabbitmq", "5.27.1")
+            version("rabbitmq", "5.28.0")
             version("h2", "2.4.240")
             version("jaxb", "4.0.6")
             version("cyclonedx", "3.1.0")
