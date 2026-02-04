@@ -25,7 +25,7 @@ dependencyResolutionManagement {
             version("mycelium.bom", "1.6.0")
             version("aonyx", "0.7.0")
             version("hibernate.bom", "7.2.0.Final")
-            version("cloudnet.bom", "4.0.0-RC16-SNAPSHOT")
+            version("cloudnet.bom", "4.0.0-RC17-SNAPSHOT")
 
             version("common.io", "2.21.0")
             version("zt.zip", "1.17")
