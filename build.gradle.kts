@@ -12,7 +12,6 @@ javaPlatform {
 }
 
 dependencies {
-    api(platform(libs.mycelium.bom))
     api(platform(libs.aonyx.bom))
     api(platform(libs.hibernate.bom))
     api(platform(libs.cloudnet.bom))
