@@ -8,9 +8,19 @@
   ],
   "packageRules": [
     {
-      "matchUpdateTypes": ["patch", "minor", "major"],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
       "automerge": true,
       "automergeType": "branch"
+    },
+    {
+      "matchPackageNames": [
+        "eu.cloudnetservice.cloudnet:bom"
+      ],
+      "allowedVersions": "<=4.0.0-RC16"
     }
   ],
   "vulnerabilityAlerts": {
