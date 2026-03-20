@@ -36,7 +36,7 @@ dependencyResolutionManagement {
             version("google.autovalue", "1.1.1")
             version("rabbitmq", "5.29.0")
             version("h2", "2.4.240")
-            version("jaxb", "4.0.6")
+            version("jaxb", "4.0.7")
             version("cyclonedx", "3.2.2")
 
             library("mycelium.bom", "net.onelitefeather", "mycelium-bom").versionRef("mycelium.bom")
