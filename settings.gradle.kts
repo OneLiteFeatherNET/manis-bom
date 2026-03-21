@@ -24,7 +24,7 @@ dependencyResolutionManagement {
         create("libs") {
             version("mycelium.bom", "1.6.3")
             version("aonyx", "0.7.0")
-            version("hibernate.bom", "7.2.6.Final")
+            version("hibernate.bom", "7.3.0.Final")
             version("cloudnet.bom", "4.0.0-RC16")
 
             version("common.io", "2.21.0")
