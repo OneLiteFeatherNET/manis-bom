@@ -22,7 +22,7 @@ dependencyResolutionManagement {
     }
     versionCatalogs {
         create("libs") {
-            version("mycelium.bom", "1.6.3")
+            version("mycelium.bom", "1.6.4")
             version("aonyx", "0.7.0")
             version("hibernate.bom", "7.3.0.Final")
             version("cloudnet.bom", "4.0.0-RC16")
