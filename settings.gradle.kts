@@ -27,7 +27,7 @@ dependencyResolutionManagement {
             version("hibernate.bom", "7.3.2.Final")
             version("cloudnet.bom", "4.0.0-RC16")
 
-            version("common.io", "2.21.0")
+            version("common.io", "2.22.0")
             version("zt.zip", "1.17")
             version("caffeine", "3.2.3")
             version("worldSeed", "11.5.6")
