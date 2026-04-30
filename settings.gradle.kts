@@ -30,7 +30,7 @@ dependencyResolutionManagement {
             version("common.io", "2.22.0")
             version("zt.zip", "1.17")
             version("caffeine", "3.2.3")
-            version("worldSeed", "11.5.6")
+            version("worldSeed", "11.6.1")
             version("commons.geometry", "1.0")
             version("postgresql", "42.7.11")
             version("google.autovalue", "1.1.1")
