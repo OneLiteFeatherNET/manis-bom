@@ -22,7 +22,6 @@ dependencyResolutionManagement {
     }
     versionCatalogs {
         create("libs") {
-            version("mycelium.bom", "1.6.5")
             version("aonyx", "0.7.3")
             version("hibernate.bom", "7.3.3.Final")
             version("cloudnet.bom", "4.0.0-RC16")
@@ -39,7 +38,6 @@ dependencyResolutionManagement {
             version("jaxb", "4.0.9")
             version("cyclonedx", "3.2.4")
 
-            library("mycelium.bom", "net.onelitefeather", "mycelium-bom").versionRef("mycelium.bom")
             library("aonyx.bom", "net.onelitefeather", "aonyx-bom").versionRef("aonyx")
             library("hibernate.bom", "org.hibernate.orm", "hibernate-platform").versionRef("hibernate.bom")
             library("cloudnet.bom", "eu.cloudnetservice.cloudnet", "bom").versionRef("cloudnet.bom")
