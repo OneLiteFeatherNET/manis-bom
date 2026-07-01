@@ -31,7 +31,7 @@ dependencyResolutionManagement {
             version("caffeine", "3.2.4")
             version("worldSeed", "11.6.1")
             version("commons.geometry", "1.0")
-            version("postgresql", "42.7.11")
+            version("postgresql", "42.7.12")
             version("google.autovalue", "1.1.1")
             version("rabbitmq", "5.32.0")
             version("h2", "2.4.240")
