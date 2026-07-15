@@ -36,7 +36,7 @@ dependencyResolutionManagement {
             version("rabbitmq", "5.34.0")
             version("h2", "2.4.240")
             version("jaxb", "4.0.9")
-            version("cyclonedx", "3.2.4")
+            version("cyclonedx", "3.3.0")
 
             library("aonyx.bom", "net.onelitefeather", "aonyx-bom").versionRef("aonyx")
             library("hibernate.bom", "org.hibernate.orm", "hibernate-platform").versionRef("hibernate.bom")
