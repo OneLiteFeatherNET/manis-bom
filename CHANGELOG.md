@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.3.1](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.0...0.3.1) (2026-08-21)
+
+
+### Bug Fixes
+
+* **deps:** update aonyx to 0.8.2 ([64a49b1](https://github.com/OneLiteFeatherNET/manis-bom/commit/64a49b15e2f93202403fd74cf5ab8a89f556bfbe))
+* **deps:** update dependency com.rabbitmq:amqp-client to v5.35.0 ([#91](https://github.com/OneLiteFeatherNET/manis-bom/issues/91)) ([0c993bb](https://github.com/OneLiteFeatherNET/manis-bom/commit/0c993bb2f547b192aadfe6cacadf88de31babacf))
+* **deps:** update dependency net.onelitefeather:aonyx-bom to v0.8.4 ([#81](https://github.com/OneLiteFeatherNET/manis-bom/issues/81)) ([37b71df](https://github.com/OneLiteFeatherNET/manis-bom/commit/37b71dfd019041b18b8c45d4b78af986fac03af0))
+* **deps:** update dependency net.worldseed.multipart:worldseedentityengine to v13 ([#84](https://github.com/OneLiteFeatherNET/manis-bom/issues/84)) ([77691a7](https://github.com/OneLiteFeatherNET/manis-bom/commit/77691a74c21c0c5e98200f28c3b6815471d98e44))
+
 ## [0.3.0](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.2.3...0.3.0) (2026-07-24)
 
 
