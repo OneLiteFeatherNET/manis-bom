@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.3.2](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.1...0.3.2) (2026-09-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.h2database:h2 to v2.5.250 ([#99](https://github.com/OneLiteFeatherNET/manis-bom/issues/99)) ([ae7b1d0](https://github.com/OneLiteFeatherNET/manis-bom/commit/ae7b1d0dd768be8416bf02fda6eb21722fafe0e3))
+* **deps:** update dependency net.onelitefeather:aonyx-bom to v0.8.6 ([#96](https://github.com/OneLiteFeatherNET/manis-bom/issues/96)) ([6581b0e](https://github.com/OneLiteFeatherNET/manis-bom/commit/6581b0ee8f2f89de37cedd2b1d174bae4870bb2e))
+* **deps:** update dependency net.onelitefeather:aonyx-bom to v0.8.7 ([#101](https://github.com/OneLiteFeatherNET/manis-bom/issues/101)) ([3c53378](https://github.com/OneLiteFeatherNET/manis-bom/commit/3c53378f0d7008c6f5dbac85010abc4c299ffed5))
+* **deps:** update dependency org.hibernate.orm:hibernate-platform to v7.4.8.final ([#100](https://github.com/OneLiteFeatherNET/manis-bom/issues/100)) ([ea2b3e4](https://github.com/OneLiteFeatherNET/manis-bom/commit/ea2b3e45deffe89d2dba0e84ffc4a7e558163003))
+
 ## [0.3.1](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.0...0.3.1) (2026-09-02)
 
 
