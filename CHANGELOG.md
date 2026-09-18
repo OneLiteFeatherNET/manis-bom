@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.3](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.2...0.3.3) (2026-09-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.rabbitmq:amqp-client to v5.36.0 ([#102](https://github.com/OneLiteFeatherNET/manis-bom/issues/102)) ([8039ff6](https://github.com/OneLiteFeatherNET/manis-bom/commit/8039ff61362697ee75fc9d37e4baccbfb8a527dd))
+* **deps:** update dependency org.hibernate.orm:hibernate-platform to v7.4.9.final ([#104](https://github.com/OneLiteFeatherNET/manis-bom/issues/104)) ([529b1eb](https://github.com/OneLiteFeatherNET/manis-bom/commit/529b1ebaa1c91a8dd54107d8bc8a4b45ecb0d85f))
+
 ## [0.3.2](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.1...0.3.2) (2026-09-14)
 
 
