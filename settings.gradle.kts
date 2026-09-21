@@ -28,7 +28,7 @@ dependencyResolutionManagement {
 
             version("common.io", "2.22.0")
             version("zt.zip", "1.18.2")
-            version("caffeine", "3.2.4")
+            version("caffeine", "3.3.0")
             version("worldSeed", "13.0.4")
             version("commons.geometry", "1.0")
             version("postgresql", "42.7.13")
