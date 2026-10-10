@@ -22,7 +22,7 @@ dependencyResolutionManagement {
     }
     versionCatalogs {
         create("libs") {
-            version("aonyx", "0.8.7")
+            version("aonyx", "0.8.8")
             version("hibernate.bom", "7.4.12.Final")
             version("cloudnet.bom", "4.0.0-RC16")
 
