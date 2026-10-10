@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.4](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.3...0.3.4) (2026-10-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.h2database:h2 to v2.5.252 ([#107](https://github.com/OneLiteFeatherNET/manis-bom/issues/107)) ([6a1dcc0](https://github.com/OneLiteFeatherNET/manis-bom/commit/6a1dcc078f5138790540000c3b09389efd6cc613))
+* **deps:** update dependency com.rabbitmq:amqp-client to v5.37.0 ([#110](https://github.com/OneLiteFeatherNET/manis-bom/issues/110)) ([61471b8](https://github.com/OneLiteFeatherNET/manis-bom/commit/61471b862c11fdf132219ec9f3a531a7c1520608))
+* **deps:** update dependency net.onelitefeather:aonyx-bom to v0.8.8 ([#115](https://github.com/OneLiteFeatherNET/manis-bom/issues/115)) ([4743821](https://github.com/OneLiteFeatherNET/manis-bom/commit/474382134812770ae637bdbb11913b9348d47564))
+* **deps:** update dependency org.hibernate.orm:hibernate-platform to v7.4.12.final ([#108](https://github.com/OneLiteFeatherNET/manis-bom/issues/108)) ([a20d311](https://github.com/OneLiteFeatherNET/manis-bom/commit/a20d31172a9e67df6144660b39346b4f7db1b45b))
+* **deps:** update dependency org.postgresql:postgresql to v42.7.14 ([#113](https://github.com/OneLiteFeatherNET/manis-bom/issues/113)) ([3ebea7f](https://github.com/OneLiteFeatherNET/manis-bom/commit/3ebea7f3df304a7691d80934bca67f69a02346a6))
+
 ## [0.3.3](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.2...0.3.3) (2026-09-21)
 
 
