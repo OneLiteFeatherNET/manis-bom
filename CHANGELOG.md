@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.6](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.5...0.3.6) (2026-10-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.github.ben-manes.caffeine:caffeine to v3.3.1 ([#119](https://github.com/OneLiteFeatherNET/manis-bom/issues/119)) ([20d505c](https://github.com/OneLiteFeatherNET/manis-bom/commit/20d505c41ab826ac2d84d96e97f226904a5b4acc))
+
 ## [0.3.5](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.4...0.3.5) (2026-10-14)
 
 
