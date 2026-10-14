@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.5](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.4...0.3.5) (2026-10-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency net.onelitefeather:aonyx-bom to v0.8.9 ([#116](https://github.com/OneLiteFeatherNET/manis-bom/issues/116)) ([ca0f4c5](https://github.com/OneLiteFeatherNET/manis-bom/commit/ca0f4c59f3e458565b60e60b073fe35e3b4ad883))
+* **deps:** update dependency org.hibernate.orm:hibernate-platform to v7.4.13.final ([#117](https://github.com/OneLiteFeatherNET/manis-bom/issues/117)) ([f402ce7](https://github.com/OneLiteFeatherNET/manis-bom/commit/f402ce778c1cd8eb992cdd97d33695fbd57cb369))
+
 ## [0.3.4](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.3...0.3.4) (2026-10-10)
 
 
