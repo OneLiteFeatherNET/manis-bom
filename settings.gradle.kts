@@ -27,7 +27,7 @@ dependencyResolutionManagement {
             version("cloudnet.bom", "4.0.0-RC16")
 
             version("common.io", "2.22.0")
-            version("zt.zip", "1.18.2")
+            version("zt.zip", "1.18.3")
             version("caffeine", "3.3.1")
             version("worldSeed", "13.0.4")
             version("commons.geometry", "1.0")
