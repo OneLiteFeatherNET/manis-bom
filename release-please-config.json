@@ -4,14 +4,17 @@
   "include-component-in-tag": false,
   "include-v-in-tag": false,
   "include-v-in-release-name": false,
-  "bootstrap-sha": "HEAD",
+  "bootstrap-sha": "bcf1abd1c02736d90e2fe65a040327d7a94ecff1",
   "pull-request-header": "",
   "packages": {
     ".": {
       "package-name": "aonyx-bom",
       "changelog-path": "CHANGELOG.md",
       "extra-files": [
-        "build.gradle.kts"
+        {
+          "type": "generic",
+          "path": "build.gradle.kts"
+        }
       ]
     }
   }
