@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.3.6](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.5...0.3.6) (2026-11-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.github.ben-manes.caffeine:caffeine to v3.3.1 ([#119](https://github.com/OneLiteFeatherNET/manis-bom/issues/119)) ([20d505c](https://github.com/OneLiteFeatherNET/manis-bom/commit/20d505c41ab826ac2d84d96e97f226904a5b4acc))
+* **deps:** update dependency com.rabbitmq:amqp-client to v5.37.1 ([#126](https://github.com/OneLiteFeatherNET/manis-bom/issues/126)) ([090c4b7](https://github.com/OneLiteFeatherNET/manis-bom/commit/090c4b71600b106a32fdc8174fbc7602243b36f9))
+* **deps:** update dependency org.hibernate.orm:hibernate-platform to v7.4.15.final ([#125](https://github.com/OneLiteFeatherNET/manis-bom/issues/125)) ([3820881](https://github.com/OneLiteFeatherNET/manis-bom/commit/3820881631701acc9e7fee3f681b4085af3dd26e))
+* **deps:** update dependency org.zeroturnaround:zt-zip to v1.18.3 ([#122](https://github.com/OneLiteFeatherNET/manis-bom/issues/122)) ([9e5aa62](https://github.com/OneLiteFeatherNET/manis-bom/commit/9e5aa627c35f75cd89397de6476e2344e266b998))
+
 ## [0.3.5](https://github.com/OneLiteFeatherNET/manis-bom/compare/0.3.4...0.3.5) (2026-10-14)
 
 
